@@ -1,4 +1,5 @@
 <script setup>
+import { NuxtLayout } from "#components";
 import { onMounted } from "vue";
 
 const authStore = useAuthStore();
@@ -10,7 +11,9 @@ onMounted(() => {
 
 <template>
   <div class="app" style="font-family: JetBrainsMonoNL">
-    <NuxtPage />
+    <NuxtLayout>
+      <NuxtPage />
+    </NuxtLayout>
   </div>
 </template>
 

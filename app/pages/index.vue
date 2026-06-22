@@ -3,7 +3,6 @@
 <template>
   <div>
     <div>
-      <FeaturesHeader />
       <div class="margin_header">
         <!--<FeaturesBanner style="margin-top: 3vw" :data="data"></FeaturesBanner>-->
       </div>

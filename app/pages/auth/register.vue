@@ -20,7 +20,7 @@ const submitHandler = async (data?: { name: string; password: string }) => {
       console.log(response);
       authStore.setTokens(
         response.data.accessToken,
-        response.data.refreshToken,
+        response.data.refreshToken
       );
       submitted.value = true;
       formErrors.value = {};
